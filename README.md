@@ -15,8 +15,11 @@ The complete URL to hosted web application :>  104.248.217.106.xip.io
       Configure the Uncomplicated Firewall (UFW) to only allow incoming connections for SSH (port 2200), HTTP (port 80), and NTP (port 123).
 
   sudo ufw allow 2200/tcp
+  
   sudo ufw allow 80/tcp
+  
   sudo ufw allow 123/tcp
+  
   sudo ufw enable
   
   Adding user :> 
