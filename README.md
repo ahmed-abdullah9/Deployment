@@ -14,12 +14,17 @@ The complete URL to hosted web application :>  104.248.217.106.xip.io
 # installations : 
 sudo apt install python-pip
 
+
 sudo pip install --upgrade pip
+
 sudo pip install Flask
+
 sudo pip install httplib2
+
 sudo pip install requests
 
 sudo pip install oauth2client
+
 sudo pip install sqlalchemy
 
 
