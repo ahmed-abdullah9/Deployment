@@ -9,7 +9,7 @@ Port: 2200
 The complete URL to hosted web application :>  104.248.217.106.xip.io
 
   To login
-      ssh -i .ssh/udacity-grader grader@104.248.217.106 -p 2200
+      ssh grader@104.248.217.106 -p 2200 -i ~/.ssh/grader
       
 # installations : 
 sudo apt install python-pip
